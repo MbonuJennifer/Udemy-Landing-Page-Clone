@@ -5,14 +5,14 @@
   font-family: "Poppins", sans-serif;
 }
 .brand-logo {
-  width: 5.5rem;
+  width: 6rem;
   height: 3rem;
 }
 /* Bootstrap 5 text input with search icon */
 .has-search .form-control {
   padding-left: 3.575rem;
   background-color: #f7f9fa;
-  width: 45.87rem;
+  width: 40.87rem;
   height: 2.875rem;
   border-radius: 1.7rem;
   border: 1px solid rgb(28, 29, 31, 0.8);
@@ -26,7 +26,6 @@
   line-height: 2.375rem;
   text-align: center;
   pointer-events: none;
-  /* color: #aaa; */
   color: #8a8b8d;
   margin-left: 1rem;
 }
@@ -40,8 +39,12 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 10px -10px;
 }
 .header h4 {
-  font-size: 13px;
-  font-weight: 300;
+  font-size: 13.3px;
+  font-weight: 400;
+}
+.header h4:hover,
+.header i:hover {
+  color: #5624d0;
 }
 .header i {
   font-size: 25px;
@@ -52,25 +55,26 @@
   align-items: center;
   justify-content: center;
 }
-.btn-div .btn,
+.btn-div .btn-log,
 .btn-div .btn-sign,
 .btn-div .btn-globe {
   margin-right: 0.6rem;
   font-size: 14px;
   font-weight: bold;
-  
-
+}
+.btn-div .btn-log:hover,
+.btn-div .btn-globe:hover {
+  background-color: #f7f9fa;
 }
 .btn-div .btn-globe {
-  padding: 0.5rem .7rem;
+  padding: 0.5rem 0.7rem;
   background-color: white;
   border: 1px solid black;
 }
-.btn-div .btn-globe .globe{
-    font-size: 15px;
-
+.btn-div .btn-globe .globe {
+  font-size: 15px;
 }
-.btn-div .btn {
+.btn-div .btn-log {
   padding: 0.6rem;
   background-color: white;
   border: 1px solid black;
@@ -80,4 +84,30 @@
   background-color: black;
   color: white;
   border: 1px solid black;
+}
+.card-box {
+  /* height: 149.2px; */
+  width: 440px;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #1c1d1f;
+  position: relative;
+  margin: 4rem 0 0 7rem;
+  background-color: white;
+}
+.image1{
+    background-image: url(images/hero1.jpg);
+}
+.image2{
+    background-image: url(images/hero2.jpg);
+}
+.image1, .image2{
+    background-size: cover;
+    height: 400px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+.a-hero{
+    color: #5624d0;
 }

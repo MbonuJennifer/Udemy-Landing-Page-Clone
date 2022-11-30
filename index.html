@@ -10,8 +10,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
+    <!-- Header starts here -->
     <header class="header">
       <div class="">
         <img src="images/udemy-logo.png" alt="" class="brand-logo" />
@@ -38,7 +45,7 @@
       </div>
       <div class="btn-div">
         <div>
-          <button class="btn">Log in</button>
+          <button class="btn-log">Log in</button>
         </div>
         <div>
           <button class="btn-sign">Sign up</button>
@@ -48,5 +55,79 @@
         </div>
       </div>
     </header>
+    <!-- Header ends here -->
+    <!-- Hero secction starts here -->
+    
+    <div class="container">
+      <div class="row">
+        <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        >
+        <div class="carousel-inner">
+          <div class="row">
+            <div class="carousel-item active">
+              <div class="row image1">
+                <!-- <img src="images/hero1.jpg" class="d-block w-100" alt="..." /> -->
+                <div class="col-xs-5">
+                    <div class="card-box">
+                      <h3>Learning that gets you</h3>
+                      <p>
+                        Skills for your present (and your future). Get started
+                        with us.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- <div class="col-xs-1"></div> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row image2">
+                  <!-- <img src="images/hero1.jpg" class="d-block w-100" alt="..." /> -->
+                  <div class="col-xs-5">
+                    <div class="card-box">
+                      <h3>Unlock the power of your people</h3>
+                      <p>
+                        Udemy Business is trusted by 12.5K+ companies around the
+                        world.
+                        <a href="" class="a-hero"
+                          >Find out what we can do for yours.</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                  <!-- <div class="col-xs-1"></div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Hero secction ends here -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
