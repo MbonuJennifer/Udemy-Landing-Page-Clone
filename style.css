@@ -57,13 +57,15 @@
 }
 .btn-div .btn-log,
 .btn-div .btn-sign,
-.btn-div .btn-globe {
+.btn-div .btn-globe,
+.btn-explore {
   margin-right: 0.6rem;
   font-size: 14px;
   font-weight: bold;
 }
 .btn-div .btn-log:hover,
-.btn-div .btn-globe:hover {
+.btn-div .btn-globe:hover,
+.btn-explore:hover {
   background-color: #f7f9fa;
 }
 .btn-div .btn-globe {
@@ -74,7 +76,8 @@
 .btn-div .btn-globe .globe {
   font-size: 15px;
 }
-.btn-div .btn-log {
+.btn-div .btn-log,
+.btn-explore {
   padding: 0.6rem;
   background-color: white;
   border: 1px solid black;
@@ -96,18 +99,27 @@
   margin: 4rem 0 0 7rem;
   background-color: white;
 }
-.image1{
-    background-image: url(images/hero1.jpg);
+.image1 {
+  background-image: url(images/hero1.jpg);
 }
-.image2{
-    background-image: url(images/hero2.jpg);
+.image2 {
+  background-image: url(images/hero2.jpg);
 }
-.image1, .image2{
-    background-size: cover;
-    height: 400px;
-    background-position: fixed;
-    background-repeat: no-repeat;
+.image1,
+.image2 {
+  background-size: cover;
+  height: 400px;
+  background-position: fixed;
+  background-repeat: no-repeat;
 }
-.a-hero{
-    color: #5624d0;
+.a-hero {
+  color: #5624d0;
+}
+.courses-para {
+  font-size: 15px;
+  color:  #1C1D1F;
+  line-height: 22.4px;
+}
+.courses-segment{
+    border: 1px solid rgb(209,215,220);
 }
