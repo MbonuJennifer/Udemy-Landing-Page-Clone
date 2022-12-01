@@ -124,7 +124,7 @@
   border: 1px solid rgb(209, 215, 220);
 }
 .featured-section {
-  height: 30.6rem;
+
   background-color: #f7f9fa;
   padding: 5rem 1rem;
 }
@@ -160,4 +160,17 @@
   font-weight: 700;
   letter-spacing: -0.2px;
   line-height: 28.8px;
+}
+.social-proof-para {
+  font-family: "open-sans", sans-serif;
+  font-size: 16px;
+  color: #1c1d1f;
+  line-height: 22.4px;
+}
+.social-proof-heading {
+  color: #1c1d1f;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 32.4px;
 }
