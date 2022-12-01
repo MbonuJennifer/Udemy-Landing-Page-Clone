@@ -117,9 +117,47 @@
 }
 .courses-para {
   font-size: 15px;
-  color:  #1C1D1F;
+  color: #1c1d1f;
   line-height: 22.4px;
 }
-.courses-segment{
-    border: 1px solid rgb(209,215,220);
+.courses-segment {
+  border: 1px solid rgb(209, 215, 220);
+}
+.featured-section {
+  height: 30.6rem;
+  background-color: #f7f9fa;
+  padding: 5rem 1rem;
+}
+.list-features {
+  color: #5624d0;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+.featured-section li {
+  list-style: none;
+}
+.list-span {
+  font-family: "open-sans", sans-serif;
+  color: #6a6f73;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.list-heading {
+  color: #1c1d1f;
+  font-size: 19px;
+  font-weight: 700;
+}
+.list-row {
+  margin-left: 0;
+  padding-left: 0;
+}
+.featured-category-title {
+  font-size: 24px;
+  color: #1c1d1f;
+  margin-bottom: 24px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 28.8px;
 }
