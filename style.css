@@ -8,7 +8,6 @@
   width: 6rem;
   height: 3rem;
 }
-/* Bootstrap 5 text input with search icon */
 .has-search .form-control {
   padding-left: 3.575rem;
   background-color: #f7f9fa;
@@ -117,7 +116,69 @@
 .courses-para {
   font-size: 15px;
   color: #1c1d1f;
+  font-weight: 500;
   line-height: 22.4px;
+}
+.course-card-p-text{
+ font-family: "open-sans", sans-serif;
+ font-size: 13px;
+}
+.star-icons{
+  color:#E59819;
+  font-size: 13px;
+  
+}
+.c-c-para{
+  color:#8a8b8d;
+  font-size: 12px;
+  
+}
+.courses-c-para{
+  color: #B6690E;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.course-card-title, .price{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 19.2px;
+}
+.c-c-box{
+  border: none !important;
+}
+.course-image-c{
+  width: 6rem;
+  height: 7rem;
+}
+.p-text {
+  font-size: 19px;
+  line-height: 26.6px;
+  margin: 16px 0;
+}
+.h-text {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 40px;
+}
+.courses-section .list-category li {
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #826f73;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  line-height: 19.2px;
+  padding-right: 10px;
+  margin-right: 20px;
+  list-style: none;
+}
+.courses-section .list-category {
+  padding-left: 0;
+}
+.list-category li:hover {
+  color: #000000;
 }
 .courses-segment {
   border: 1px solid rgb(209, 215, 220);
@@ -125,6 +186,17 @@
 .featured-section {
   background-color: #f7f9fa;
   padding: 5rem 1rem;
+}
+.btn-best{
+  background-color: #ECEB98;
+  border: none;
+  padding: 3px 7px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 7px;
+  color: #1c1d1f;
+  font-family: "open-sans", sans-serif;
+
 }
 .list-features {
   color: #5624d0;
@@ -253,10 +325,10 @@
 .btn-white a {
   text-decoration: none;
 }
-.btn-black:hover{
+.btn-black:hover {
   background-color: #000000;
 }
-.btn-black a:hover{
+.btn-black a:hover {
   color: white;
 }
 .btn-black a {
@@ -265,7 +337,6 @@
 .btn-white a {
   color: #1c1d1f;
 }
-.btn-white a:hover{
+.btn-white a:hover {
   color: #1c1d1f;
-
 }
